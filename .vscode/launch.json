@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Demo: textbook", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/demo.py", "args": ["--workload", "textbook"], "console": "integratedTerminal"},
+    {"name": "Experiments (200 runs)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/experiments.py", "args": ["--runs", "200"], "console": "integratedTerminal"}
+  ]
+}
